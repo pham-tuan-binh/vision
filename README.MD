@@ -1,8 +1,8 @@
-# Project Vision
+# Memento
 
-!! Put image here
+![Memento](./images/Memento.jpg)
 
-Project Vision is an interactive polaroid image built on top of the Unihiker K10. With this device, hobbyists can try different interactive paradigms:
+Memento is an interactive polaroid image built on top of the Unihiker K10. With this device, hobbyists can try different interactive paradigms:
 
 - **A GenAI Camera**: Take a picture, get a GenAI photo.
 - **A Voice Photo Gallery**: Interact with your photo gallery through voice e.g. when was the last time I was happy.
@@ -12,11 +12,9 @@ Project Vision is an interactive polaroid image built on top of the Unihiker K10
 
 To understand more about the device, you're welcome to read our experiment article here.
 
-!! Put image here
+To have an overview of the device functioning, you're welcome to watch our introduction video [here](https://youtu.be/p7J4b8OQXAY).
 
-To have an overview of the device functioning, you're welcome to watch our introduction video here.
-
-!! Put image here
+[![Video](https://img.youtube.com/vi/p7J4b8OQXAY/0.jpg)](https://www.youtube.com/watch?v=p7J4b8OQXAY)
 
 # Project Structure
 
@@ -31,7 +29,7 @@ This repository contains 4 directories:
 
 ## Hardware Requirements
 
-!! Put image here
+![Unihiker](./images/Unihiker.png)
 
 This project is sponsored by DFRobot. To build this project, you'll need:
 
@@ -77,6 +75,8 @@ To set up the development environment for the Unihiker K10, it is recommended to
 
 ## Compiling and Uploading
 
+![Arduino](./images/Arduino.png)
+
 1. Make sure your Unihiker K10 is connected to your computer via USB
 2. In Arduino IDE, select the correct board:
    - Go to **Tools** → **Board** → **Unihiker K10**
@@ -87,6 +87,8 @@ To set up the development environment for the Unihiker K10, it is recommended to
 6. The device will automatically restart and run your code
 
 ## WiFi Setup
+
+![Wifi Setup](./images/Wifi.png)
 
 If a project requires WiFi connection, a file called `wifi_helper.ino` will be available.
 
@@ -111,6 +113,8 @@ const char *WIFI_PASSWORD = "mypassword123";
 
 ## Backend Connection Setup
 
+![GenAI Connect](./images/GenAIConnect.png)
+
 If a project requires backend connection, a file called `gen_ai_helper.ino` will be available.
 
 To configure the server IP:
@@ -131,6 +135,8 @@ To configure the server IP:
 Look for your local network IP (usually starts with `192.168.` or `10.`)
 
 # Server Setup
+
+![Server Directory](./images/ServerDir.png)
 
 If a project requires a backend server to work, you can find a `server` directory in such project.
 
@@ -231,6 +237,8 @@ Each project uses different files from the storage directory:
 
 # 3D Enclosure
 
+![3D](./images/3D.png)
+
 The device's enclosure is divided into 3 parts:
 
 - **Body**: Main housing for the Unihiker K10
@@ -262,7 +270,7 @@ The one without screws simply fits by friction and therefore the fit can vary wi
 
 ## Polaroid Project
 
-!! Put image here
+![Polaroid](./images/Polaroid.png)
 
 - **Features**: Takes photos and applies AI-generated effects
 - **Requirements**: WiFi connection, server running, Gemini API key, ImageRouter API key
@@ -270,31 +278,27 @@ The one without screws simply fits by friction and therefore the fit can vary wi
 
 ## Film Project
 
-!! Put image here
+![Film](./images/Film.png)
 
 - **Features**: Creates vintage film-style photos with AI enhancement
 - **Requirements**: WiFi connection, server running, Gemini API key
 - **Usage**: Shake the device to take a photo, wait for processing
 
-## Memory-cue Project
-
-!! Put image here
-
-- **Features**: Displays pre-loaded memories at scheduled times
-- **Requirements**: No WiFi or server needed
-- **Usage**: Device automatically shows memories, shake to cycle through them
-
 ## Locket Project
 
-!! Put image here
+![Locket](./images/Locket.png)
 
 - **Features**: Takes photos and displays them (mockup stage)
 - **Requirements**: No WiFi or server needed
 - **Usage**: Shake to take a photo, view stored photos
 
-## Streamdiffusion Project
+## Memory-cue Project
 
-!! Put image here
+- **Features**: Displays pre-loaded memories at scheduled times
+- **Requirements**: No WiFi or server needed
+- **Usage**: Device automatically shows memories, shake to cycle through them
+
+## Streamdiffusion Project
 
 - **Features**: Real-time AI image processing stream
 - **Requirements**: Set up the realtime-img2img demo from the [Stream Diffusion project](https://github.com/cumulo-autumn/StreamDiffusion) before using this feature.
