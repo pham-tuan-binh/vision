@@ -10,7 +10,7 @@ Memento is an interactive polaroid image built on top of the Unihiker K10. With 
 - **A Locket**: Take a picture, share instantly with friends (Mockup Stage).
 - **A Memory Reminder Device**: Reminds you of past memories every day (Mockup Stage).
 
-To understand more about the device, you're welcome to read our experiment article here.
+To understand more about the device, you're welcome to read our experiment article [here](https://research.humancomputerlab.com/bring-joy-back-to-digital-memories/).
 
 To have an overview of the device functioning, you're welcome to watch our introduction video [here](https://youtu.be/p7J4b8OQXAY).
 
